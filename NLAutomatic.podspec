@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.subspec 'Promise' do |sub|
     sub.source_files = 'Classes/Promise/*.{h,m}'
     sub.dependency 'NLAutomatic/Adapter'
-    sub.dependency 'PromiseKit/Promise'
+    sub.dependency 'PromiseKit/Promise', '~> 1.5'
   end
 end
